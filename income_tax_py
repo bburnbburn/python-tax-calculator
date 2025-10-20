@@ -1,0 +1,21 @@
+# 소득(income) 변수 선언
+income = float(input("당신의 소득을 입력하세요(만원 단위): "))
+
+# 조건에 따라 세금(tax)과 소득 수준(level) 분류
+if income < 1000:
+    tax = income * 0.05
+    level = "저소득층"
+elif income < 5000:
+    tax = income * 0.20
+    level = "중간소득층"
+elif income < 10000:
+    tax = income * 0.40
+    level = "고소득층"
+else:
+    tax = income * 0.50
+    level = "초고소득층"
+
+# 결과 출력
+print(f"\n소득 수준: {level}")
+print(f"예상 세금: {tax:.1f}만원")
+print(f"세후 소득: {income - tax:.1f}만원")
