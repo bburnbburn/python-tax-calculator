@@ -93,7 +93,7 @@ def read_molit_csv(file_bytes: bytes) -> pd.DataFrame:
 # -----------------------------
 # Data loading
 # -----------------------------
-st.title("🏙️ 대전광역시 부동산 이상거래 탐지 시스템 (Streamlit)")
+st.title("🏙️ 부동산 이상거래 탐지 시스템 (Streamlit)")
 st.caption("동일 월·단지·면적 기준 통계 + Z-score 기반 정량 탐지")
 
 col_left, col_right = st.columns([2,1])
