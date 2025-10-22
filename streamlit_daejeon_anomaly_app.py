@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="대전 부동산 이상거래 탐지", layout="wide")
+st.set_page_config(page_title="부동산 이상거래 탐지", layout="wide")
 
 # -----------------------------
 # Utilities
